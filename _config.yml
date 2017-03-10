@@ -1,3 +1,68 @@
-theme: jekyll-theme-minimal
-name: Bright Bot News
-markdown: kramdown
+# Permalinks
+permalink:           pretty
+
+# collections:
+#   guides:
+#     output: true
+#     permalink: pretty
+# Setup
+title:            Bright Bot News
+name:             "Bright Bot News"
+tagline:          "Bright Bot News: We read Breitbart so you don't have to!"
+description:      "Bright Bot News: We read Breitbart so you don't have to!
+url:              "https://brightbotnews.github.io"
+baseurl:          ""
+paginate:         7
+twitter:
+  username: brightbotnews
+
+
+
+
+ampdir: amp
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+# About/contact
+# author:
+#   name:             'Cicada'
+#   url:              'https://brightbotnews.github.io'
+#   email:            'cicada_3301@riseup.net'
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/brightbotnews/brightbotnews.github.io
+timezone:            America/San_Francisco
+exclude:             [vendor]
+
+#algolia:
+#  application_id: 'UI0QYYDNB1'
+#  index_name:     'WTFJHT'
+#  read_only_api_key: '50fe80eaf3c61b236fe7408e8be4bc30'
+#  record_css_selector: 'p,li,blockquote'
+#  excluded_files:
+#    - 404.html
+#    - about.md
+#    - faq.md
+#    - index.html
+#    - membership.md
+#    - press.md
+#    - rss.xml
+#    - atom.xml
+#    - styles.css
+
+# Gems
+gems:
+  - jekyll-gist
+  - jekyll-redirect-from
+  - github-pages
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - algoliasearch-jekyll
+  # - amp-jekyll
