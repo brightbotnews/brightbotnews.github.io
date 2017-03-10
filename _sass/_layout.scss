@@ -1,0 +1,51 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+.container {
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 2em 2em 1em 2em;
+  background-color: #222;
+  color: $gray-3;
+  margin-top: 2em;
+
+  a {
+    color: $gray-1;
+  }
+
+  p, span {
+    font-size: .7em;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: inline;
+      padding-right: 1em;
+      font-size: .75em;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.tout {
+  margin: 1em auto;
+  text-align: center;
+  max-width: 40rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
