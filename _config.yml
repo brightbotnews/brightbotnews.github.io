@@ -62,7 +62,7 @@ gems:
   - jekyll-redirect-from
   - github-pages
   - jekyll-paginate
-  - jekyll-seo-tag
+  # - jekyll-seo-tag
   - jekyll-sitemap
-  - algoliasearch-jekyll
+  # - algoliasearch-jekyll
   # - amp-jekyll
